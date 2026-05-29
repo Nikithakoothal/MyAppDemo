@@ -9,10 +9,10 @@ terraform {
   }
 
   cloud {
-    organization = "REPLACE_WITH_YOUR_ORG"   # e.g., "user1-terraform-training"
+    organization = "user15-terraform-trainings"   # e.g., "user1-terraform-training"
 
     workspaces {
-      name = "REPLACE_WITH_WORKSPACE_NAME"   # e.g., "vcs-lab12-user1"
+      name = "vcs-lab12-user15"   # e.g., "vcs-lab12-user1"
     }
   }
 }
